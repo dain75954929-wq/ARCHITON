@@ -1,0 +1,32 @@
+.venv/
+.venv312/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+backend/db.sqlite3
+backend/staticfiles/
+
+1. into_database/into_database
+1. into_database/into_database_preview.csv
+1. into_database/sj_processed_raw_database_v7.json
+sj_processed_raw_database_v7.json
+
+2. analysis/test_images/
+
+0. build/pgvector-0.8.2.zip
+0. build/pgvector-0.8.2/
+
+0. build/pgvector-0.8.2/test/
+0. build/pgvector-0.8.2/.github/
+
+*.log
